@@ -1,0 +1,78 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size:  12px;
+	color: black;
+	text-align: center;
+
+}
+h1{
+	font-size: 175%;
+	display: block;
+}
+p {
+	font-size:  100%;
+	text-align: left;
+}
+	
+#container > div {
+	display: inline-block;
+	background-color: rgba(128, 128, 128, 0.45);
+	border: solid 1px  black;
+	position: relative;
+	box-sizing: border-box;
+	width: 28%;
+    padding: 15px;
+}
+#container > div > div {
+	font-size: 125%;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	text-align: center;
+	min-width: 100px;
+	width: 30%;
+	padding: 2px 4px;
+	border: solid 1px  black;
+}
+#container > div:nth-child(1) {
+	margin-right: 4%;
+}
+#container > div:nth-child(2) {
+	margin-right: 4%;
+}
+
+#container > div:nth-child(1) > div {
+	background-color: pink;
+}
+#container > div:nth-child(2) > div {
+	background-color: red;
+	color:  white;
+}
+#container > div:nth-child(3) > div {
+	background-color: yellow;
+}
+
+@media (min-width:  768px) and (max-width: 991px) {
+	#container > div {
+		width: 42%;
+		margin-top: 15px;
+	}
+	#container > div:nth-child(1) {
+		margin-right: 5%;
+	}
+	#container > div:nth-child(2) {
+		margin-right: 0;
+	}
+	#container > div:nth-child(3) {
+		display: block;
+		width: 89%;
+		margin: 15px auto;
+	}
+}
+@media (max-width: 767px) {
+	#container > div {
+		display: block;
+		width: 95%;
+		margin: 5%;
+	}
+}
