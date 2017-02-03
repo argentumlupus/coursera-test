@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(231, 246, 247);
+}
+#top {
+	padding-top: 90px;
+	font-weight: bold;
+	color: rgb(11, 56, 86);
+}
+div > h3 {
+	color: rgb(24, 89, 132);
+	font-weight: bold;
+}
+#header-nav {
+	background-color: rgb(129, 180, 181);
+}
+.navbar-toggle {
+	margin-top: 25px;
+}
+#collapsable-nav{
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	background-color: rgba(169, 226, 214, 0.5);	
+	transition: all 0.4s;
+	font-weight: bold;
+	border-bottom: #e7e7e7 solid 1px;
+x
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+	background-color: rgba(13, 230, 185, 0.5);
+	text-shadow: 1px 1px 2px;
+		
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+p {
+	color: grey;
+}
